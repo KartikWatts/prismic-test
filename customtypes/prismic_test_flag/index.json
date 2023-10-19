@@ -1,0 +1,53 @@
+{
+  "id": "prismic_test_flag",
+  "label": "Prismic Test Flag",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "test": {
+        "type": "Boolean",
+        "config": {
+          "label": "test",
+          "placeholder_false": "false",
+          "placeholder_true": "true",
+          "default_value": true
+        }
+      },
+      "test2": {
+        "type": "Boolean",
+        "config": {
+          "label": "test2",
+          "placeholder_false": "false",
+          "placeholder_true": "true",
+          "default_value": true
+        }
+      },
+      "test3": {
+        "type": "Boolean",
+        "config": {
+          "label": "test3",
+          "placeholder_false": "false",
+          "placeholder_true": "true",
+          "default_value": true
+        }
+      },
+      "testflag": {
+        "type": "Boolean",
+        "config": {
+          "label": "testFlag",
+          "placeholder_false": "false",
+          "placeholder_true": "true",
+          "default_value": true
+        }
+      }
+    }
+  }
+}
